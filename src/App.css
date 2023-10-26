@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 1rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-display-options {
+  min-height: 20vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 1vmin);
+  background-color: #282c34;
+  color: white;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.App-display-items { grid-area: 1 / 1 / 2 / 2; }
+
+.App-display-input {
+  margin: 0.5rem;
+  min-height: 1.5rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.App-display-button button {
+  padding: 1.5rem 0.5rem 1.5rem;
+  text-align: center;
+  font-size: calc(12px + 1vmin);
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.App-generator-notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: calc(6px + 1vmin);
+}
+
+.App-generator-notes p { max-width: 60%; }
+
+.App-map-display {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: calc(6px + 1vmin);
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
